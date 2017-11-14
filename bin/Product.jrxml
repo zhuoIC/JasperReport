@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.4.3.final using JasperReports Library version 6.4.3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Product" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="8f6ba052-2d36-49b3-9480-f2c01d4468e8">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM product_template;]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+	</field>
+	<field name="warranty" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.label" value="warranty"/>
+	</field>
+	<field name="uos_id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="uos_id"/>
+	</field>
+	<field name="list_price" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="list_price"/>
+	</field>
+	<field name="weight" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="weight"/>
+	</field>
+	<field name="color" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="color"/>
+	</field>
+	<field name="image" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="image"/>
+	</field>
+	<field name="write_uid" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="write_uid"/>
+	</field>
+	<field name="mes_type" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="mes_type"/>
+	</field>
+	<field name="uom_id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="uom_id"/>
+	</field>
+	<field name="description_purchase" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="description_purchase"/>
+	</field>
+	<field name="create_date" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.label" value="create_date"/>
+	</field>
+	<field name="uos_coeff" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="uos_coeff"/>
+	</field>
+	<field name="create_uid" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="create_uid"/>
+	</field>
+	<field name="sale_ok" class="java.lang.Boolean">
+		<property name="com.jaspersoft.studio.field.label" value="sale_ok"/>
+	</field>
+	<field name="categ_id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="categ_id"/>
+	</field>
+	<field name="product_manager" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="product_manager"/>
+	</field>
+	<field name="message_last_post" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.label" value="message_last_post"/>
+	</field>
+	<field name="company_id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="company_id"/>
+	</field>
+	<field name="state" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="state"/>
+	</field>
+	<field name="uom_po_id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="uom_po_id"/>
+	</field>
+	<field name="description_sale" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="description_sale"/>
+	</field>
+	<field name="description" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="description"/>
+	</field>
+	<field name="weight_net" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="weight_net"/>
+	</field>
+	<field name="volume" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.label" value="volume"/>
+	</field>
+	<field name="write_date" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.label" value="write_date"/>
+	</field>
+	<field name="active" class="java.lang.Boolean">
+		<property name="com.jaspersoft.studio.field.label" value="active"/>
+	</field>
+	<field name="rental" class="java.lang.Boolean">
+		<property name="com.jaspersoft.studio.field.label" value="rental"/>
+	</field>
+	<field name="image_medium" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="image_medium"/>
+	</field>
+	<field name="name" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="name"/>
+	</field>
+	<field name="type" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="type"/>
+	</field>
+	<field name="image_small" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="image_small"/>
+	</field>
+	<field name="track_all" class="java.lang.Boolean">
+		<property name="com.jaspersoft.studio.field.label" value="track_all"/>
+	</field>
+	<field name="loc_row" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="loc_row"/>
+	</field>
+	<field name="track_outgoing" class="java.lang.Boolean">
+		<property name="com.jaspersoft.studio.field.label" value="track_outgoing"/>
+	</field>
+	<field name="loc_rack" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="loc_rack"/>
+	</field>
+	<field name="loc_case" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="loc_case"/>
+	</field>
+	<field name="track_incoming" class="java.lang.Boolean">
+		<property name="com.jaspersoft.studio.field.label" value="track_incoming"/>
+	</field>
+	<field name="sale_delay" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.label" value="sale_delay"/>
+	</field>
+	<field name="track_production" class="java.lang.Boolean">
+		<property name="com.jaspersoft.studio.field.label" value="track_production"/>
+	</field>
+	<field name="produce_delay" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.label" value="produce_delay"/>
+	</field>
+	<sortField name="name"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="40" y="0" width="480" height="71" uuid="6b6a1811-fda5-405d-a6ee-88cd74eee942"/>
+				<textElement textAlignment="Center">
+					<font size="26"/>
+				</textElement>
+				<text><![CDATA[PRODUCTOS DE LA EMPRESA]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="57" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61">
+			<rectangle>
+				<reportElement stretchType="RelativeToBandHeight" x="-30" y="0" width="591" height="57" forecolor="#FFFFFF" backcolor="#000000" uuid="bdbfe009-3695-40f0-a121-361217437812"/>
+			</rectangle>
+			<staticText>
+				<reportElement positionType="FixRelativeToBottom" stretchType="RelativeToBandHeight" x="0" y="13" width="100" height="30" forecolor="#FFFFFF" backcolor="#000000" uuid="5008277a-dc60-4fc9-85c7-c826652ddacc"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="13" width="100" height="30" forecolor="#FFFFFF" backcolor="#000000" uuid="f543351c-7fa0-430b-b1fe-2cc67cd4de57">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7a1a3e36-67b8-41d2-82d9-95f84f72d043"/>
+				</reportElement>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[NOMBRE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="370" y="15" width="100" height="30" forecolor="#FFFFFF" backcolor="#000000" uuid="0b13d603-08d4-4767-bf6a-89254e695a13">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9ed36887-eeea-4b1e-814e-6eff6438042d"/>
+				</reportElement>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[PRECIO]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="100" height="30" uuid="b1f3f6c5-6e38-4078-b4c8-dd7ce31c40aa">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7173b5b0-e408-4b23-9d65-66a052d70af6"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="179" y="2" width="100" height="30" uuid="b40b2cac-fc61-49da-92a7-d5a0453f7a26">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7a1a3e36-67b8-41d2-82d9-95f84f72d043"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="378" y="10" width="100" height="30" uuid="8a342ce4-7d92-4234-b093-b93a10ed8dd9">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9ed36887-eeea-4b1e-814e-6eff6438042d"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{list_price}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="54" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<textField>
+				<reportElement x="440" y="10" width="100" height="30" uuid="7fe4567d-c5da-4783-a686-ee34368374e7"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
